@@ -1,0 +1,25 @@
+#head-grid-container {
+    display: grid;
+    background-color:lightgray ;
+    align-content: center;
+    justify-content: center;
+    h1{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        color: navy;
+    }
+}
+
+.grid-item{
+    grid-template-rows: 2fr 2fr 2fr 2fr ;
+    border: 3px solid navy;
+    margin: 5px;
+    padding: 7px;
+    gap: 2px;
+    color: navy;
+    background-color: lightpink;
+    border-radius: 5px;
+    text
+}
